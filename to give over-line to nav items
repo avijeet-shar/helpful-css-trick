@@ -1,0 +1,20 @@
+ .nav a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav a::before{
+            content: '';
+            display: block;
+            height: 5px;
+            width: 0%;
+            background-color: orange;
+            top: 0;
+            transition: all ease-in-out 250ms;
+            
+        }
+
+        .nav a:hover::before{
+            width: 100%;
+
+        }

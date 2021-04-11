@@ -1,0 +1,19 @@
+.main {
+            width: 100%;
+            height: fit-content;
+            display: block;
+            position: relative;
+
+        }
+
+        .main::after {
+            content: "";
+            background: url("main-background.png");
+            opacity: 0.8;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+        }
